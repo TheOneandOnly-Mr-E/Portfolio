@@ -1,0 +1,228 @@
+html{
+ color: #045787;
+}
+
+body {
+  font-family: 'Reem Kufi', sans-serif;
+  font-weight: 300;
+  border-color: #045787;
+  background-color: #045787;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #EAEAEA;
+}
+
+header .container {
+  background-color: #EAEAEA;
+  margin: 0;
+}
+
+.container {
+  background-color: #045787;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  width: 100%;
+}
+
+header p {
+  padding-right: 20px;
+  margin: 0;
+}
+
+header a {
+  padding-right: 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-color: #045787;
+  height: 500px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.about {
+  margin: auto;
+  width: 50%;
+}
+
+section {
+  background-color: #045787;
+  border-color: #045787;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #52bbf7;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #52bbf7;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  display: inline-flex;
+  justify-items: center;
+}
+
+footer.col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+}
+
+fieldset {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   color: #eaeaea;
+}
+div.container.about2 {
+  width: 100%;
+  background-color: #045787;
+}
+
+nav.nav.nav-fill.nav-pills.nav-justified{
+  width: 100;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a.nav-item.nav-link {
+  color:#ffffff;
+  background-color:#045787; 
+}
+
+a.nav-item.nav-link:hover {
+  color: #ffffff;
+  background-color: #013452;
+}
+
+header.about2 {
+  background-color: #045787;
+  justify-content: center;
+}
+
+section.jumbotron.text-center.about2 {
+  text-align: center;
+  background-color: #034a73;
+  height: 25%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+div.container.text-center.about2 {
+  text-align: center;
+  background-color: #034a73;
+  margin: auto;
+}
+
+#ppic {
+  max-width: 175px !important;
+  max-height: 232px !important;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+div.container.about2 {
+  display: inline;
+  padding-top: 32px;
+}
+
+section#aboutsection.container.text-center {
+  color: #EAEAEA;
+}
+
+nav.col-sm-8 {
+  color: #ffffff;
+}
+
+a.nav {
+  color: #ffffff;
+}
+
+a.nav:hover{
+  color: #eaeaea;
+}
+
+div.container.form {
+  margin: auto;
+}
+
+img.printers {
+  max-width: 210px;
+  max-height: 200px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border: 10px;
+  border-color: #013452;
+}
+
+div#aboutsection img {
+  border: 10px;
+  border-color:#013452;
+}
+
+p.about2 {
+  color: #eaeaea;
+}
+div.

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Aaron's 3D Prints: Order</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://transloadit.edgly.net/releases/uppy/v1.6.0/uppy.min.css" rel="stylesheet">
+</head>
+
+<body>
+ <!-- header for entire website -->
+	<header class="container">
+		<div class="row">
+			<h1 class="col-sm-4">A3DP</h1>
+			<nav class="col-sm-8">
+				<a class="nav" href="index.html">home</a>
+        <br>
+				<a class="nav" href="order.html">order</a>
+				<br>
+        <a class="nav" href="about.html">about</a>
+        <br>
+        <a class="nav" href="about2.html">about2</a>
+      </nav>
+    </div>
+  </header>
+  
+	<div class="container form ">
+		<form class="form-vertical" action="#https://airform.io/aarons3dprints@gmail.com" method="POST">
+			<fieldset>
+				<div class="offset-md 4">
+					<br>
+<!-- Form Name -->
+<h1 class="text-center"><strong>Order Request</strong></h1>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="radios">Which printer would you like to use?</label>
+  <div class="col-sm-6">
+   <div class="radio">
+        <label for="radios-0">
+          <input type="radio" name="radios" id="radios-0" value="A8" required>
+          Anet A8
+        </label>
+    </div>
+   <div class="radio">
+      <label for="radios-1">
+       <input type="radio" name="radios" id="radios-1" value="V2" required>
+      Monoprice Select Mini V2 (reccomended)
+     </label>
+	  </div>
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="meshupload">Please upload your 3D mesh (.stl, . obj, .3mf)</label>
+  <div class="col-sm-6">
+    <input id="meshupload" name="meshupload" class="input-file" type="file" accept=".stl, .obj, .3mf" required>
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="sanded">Would you like your 3D print sanded?</label>
+  <div class="col-sm-6">
+  <div class="radio">
+    <label for="sanded-0">
+      <input type="radio" name="sanded" id="sanded-0" value="Ys" required>
+      Yes
+    </label>
+	</div>
+  <div class="radio">
+    <label for="sanded-1">
+      <input type="radio" name="sanded" id="sanded-1" value="Ns" required>
+      No
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="painted">Would you like your 3D print painted? (Note that painting includes sanding)</label>
+  <div class="col-sm-6">
+  <div class="radio">
+    <label for="painted-0">
+      <input type="radio" name="painted" id="painted-0" value="Yp" required>
+      Yes
+    </label>
+	</div>
+  <div class="radio">
+    <label for="painted-1">
+      <input type="radio" name="painted" id="painted-1" value="Np" required>
+      No
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="paintinginstructions">If you would like it painted, please describe where you want paint, and how you want it painted. (E.X. paint the eyes black and the rest of it yellow)</label>
+  <div class="col-sm-6">                     
+    <textarea class="form-control" id="paintinginstructions" name="paintinginstructions">Put painting instructions here</textarea>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="name">Your name</label>  
+  <div class="col-sm-6">
+  <input id="name" name="name" type="text"  class="form-control input-md" required>
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="email">E-mail</label>  
+  <div class="col-sm-6">
+  <input id="email" name="email" type="text" class="form-control input-md" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="phone number">Phone number</label>  
+  <div class="col-sm-6">
+  <input id="phone number" name="phone number" type="text"  class="form-control input-md" required pattern="[0-9]{3,}+[0-9]{3,}+[0-9]{4,}">
+    
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="contactmethod">Preferred contact method</label>
+  <div class="col-sm-6">
+  <div class="radio">
+    <label for="contactmethod-0">
+      <input type="radio" name="contactmethod" id="contactmethod-0" value="Phone" required>
+      Phone
+    </label>
+	</div>
+  <div class="radio">
+    <label for="contactmethod-1">
+      <input type="radio" name="contactmethod" id="contactmethod-1" value="Email" required>
+      E-mail
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-sm-6 control-label" for="qandc">Questions and Comments</label>
+  <div class="col-sm-6">                     
+    <textarea class="form-control" id="qandc" name="qandc"></textarea>
+  </div>
+</div>
+<!-- Credits to https://bootsnipp.com/forms for most of the form code above -->
+
+<input type="submit">
+</div>
+</fieldset>
+</form>
+</div>
+<script src="https://transloadit.edgly.net/releases/uppy/v1.6.0/uppy.min.js"></script>
+<script>
+  var uppy = Uppy.Core()
+  uppy.use(Uppy.DragDrop, { target: '#drag-drop-area' })
+  uppy.use(Uppy.Tus, { endpoint: 'https://master.tus.io/files/' })
+</script>
+</body>
+</html>
